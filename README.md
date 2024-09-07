@@ -3,7 +3,7 @@ This project was the part of competition Low-prep Challenge in Inter Bhawan Tech
 
 For this first, we looked for the diferent approaches available like histogram equalization, contrast stretching and gamma correction and state-of-art models available. However most of the available models had problem of high inference time and were for medical purposes not for general purpose. 
 
-<a href="https://ibb.co/fYwXQFs"><img src="https://i.ibb.co/TB3wr2s/Screenshot-2023-12-20-150004.png" alt="Screenshot-2023-12-20-150004" border="0"></a>
+<a href="https://ibb.co/fYwXQFs"><img src="https://github.com/PraffulVarshney/Low-Light-Image-Restoration/blob/main/code/Poster.png" border="0"></a>
 
 To tackle this, we employed transfer learning by using the weights of LLFlow model and finetuned it on the custom dataset created by adding noise to VE-LOL dataset and trained the model for 6 epoches. 
 
